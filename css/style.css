@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -59,3 +60,33 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 /*--------------------------*/
+* {
+  font-size: 0;
+  color: #232323; }
+
+.page {
+  width: 92%;
+  margin: 0 auto;
+  background-color: #f1f1f1; }
+
+.header__inner .header__title {
+  display: inline-block;
+  width: 25%;
+  background-color: #232323;
+  padding: 4px; }
+  .header__inner .header__title .header__heading {
+    font: 28px "Montserrat ExtraBold";
+    text-transform: uppercase;
+    color: #f1f1f1;
+    margin-left: 6px; }
+
+.header__inner .header__description {
+  display: inline-block;
+  width: 75%;
+  background-color: #FF3C1E;
+  padding: 4px; }
+  .header__inner .header__description .header__text {
+    font: 28px "Montserrat ExtraBold";
+    text-transform: uppercase;
+    color: #f1f1f1;
+    margin-left: 6px; }
